@@ -22,7 +22,7 @@
     "eslint-plugin-react": "^7.20.0",
     "prettier": "^2.0.5",
     "rollup": "^1.32.1",
-    "rollup-plugin-chrome-extension": "link:../rollup-plugin-chrome-extension",
+    "rollup-plugin-chrome-extension": "^3.0.1",
     "rollup-plugin-empty-dir": "^1.0.4",
     "tslib": "^2.0.0",
     "typescript": "^3.7.4"
