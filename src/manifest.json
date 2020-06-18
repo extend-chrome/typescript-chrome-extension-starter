@@ -1,7 +1,4 @@
 {
-  "name": "TypeScript Starter Extension",
-  "description": "Get started writing a Chrome extension in TypeScript",
-  "version": "0.0.1",
   "background": {
     "persistent": false,
     "scripts": ["background/background.ts"]
