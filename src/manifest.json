@@ -1,0 +1,24 @@
+{
+  "name": "TypeScript Starter Extension",
+  "description": "Get started writing a Chrome extension in TypeScript",
+  "version": "0.0.1",
+  "background": {
+    "persistent": false,
+    "scripts": ["background/background.ts"]
+  },
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "js": ["content-script/content-script.ts"],
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "identity",
+    "storage",
+    "identity.email"
+  ],
+  "manifest_version": 2
+}
