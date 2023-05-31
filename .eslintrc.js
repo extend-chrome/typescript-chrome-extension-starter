@@ -89,6 +89,7 @@ const ts = {
   env: {
     es6: true,
     node: true,
+    webextensions: true,
   },
   globals: {
     Atomics: 'readonly',
@@ -124,6 +125,7 @@ module.exports = {
   env: {
     es6: true,
     node: true,
+    webextensions: true,
   },
   globals: {
     Atomics: 'readonly',
